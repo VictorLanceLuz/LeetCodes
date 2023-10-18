@@ -8,7 +8,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-#define NAIVE 1
+#define NAIVE
 class Solution {
 public:
     #ifdef NAIVE 
@@ -37,7 +37,6 @@ public:
     }
     #endif
 
-    #ifdef BINARY_SEARCH_METHOD
 };
 // @lc code=end
 
